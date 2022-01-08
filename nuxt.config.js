@@ -5,8 +5,8 @@ import * as FontAwesome from './plugins/fontawesome'
 
 const contentful = require('contentful')
 const client = contentful.createClient({
-  space: process.env.CTF_SPACE_ID,
-  accessToken: process.env.CTF_ACCESS_TOKEN
+  space: 'hn32wshetg5b',
+  accessToken: 't1NNyseNNhW4j7oCZuh8apaPrNWEUeOBsUmUjR1dq-0'
 })
 
 export default {
@@ -28,13 +28,9 @@ export default {
     ]
   },
 
-  // env: {
-  //   CTF_SPACE_ID: process.env.CTF_SPACE_ID,
-  //   CTF_CDA_ACCESS_TOKEN: process.env.CTF_ACCESS_TOKEN
-  // },
   env: {
-    CTF_SPACE_ID: 'hn32wshetg5b',
-    CTF_CDA_ACCESS_TOKEN: 't1NNyseNNhW4j7oCZuh8apaPrNWEUeOBsUmUjR1dq-0'
+    CTF_SPACE_ID: process.env.CTF_SPACE_ID,
+    CTF_CDA_ACCESS_TOKEN: process.env.CTF_ACCESS_TOKEN
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
