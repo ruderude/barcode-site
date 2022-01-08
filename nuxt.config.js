@@ -28,9 +28,13 @@ export default {
     ]
   },
 
+  // env: {
+  //   CTF_SPACE_ID: process.env.CTF_SPACE_ID,
+  //   CTF_CDA_ACCESS_TOKEN: process.env.CTF_ACCESS_TOKEN
+  // },
   env: {
-    CTF_SPACE_ID: process.env.CTF_SPACE_ID,
-    CTF_CDA_ACCESS_TOKEN: process.env.CTF_ACCESS_TOKEN
+    CTF_SPACE_ID: 'hn32wshetg5b',
+    CTF_CDA_ACCESS_TOKEN: 't1NNyseNNhW4j7oCZuh8apaPrNWEUeOBsUmUjR1dq-0'
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
