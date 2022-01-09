@@ -1,7 +1,7 @@
 <template>
   <v-row class="text-center" justify="center" align="center">
     <v-col cols="12">
-      トップページ
+      トップページ-barcode
       <font-awesome-icon icon="download"/>
       <font-awesome-icon icon="anchor"/>
       <font-awesome-icon icon="star"/>
@@ -29,6 +29,9 @@
           :src="work.fields.image.fields.file.url"
         ></v-img>
       </div>
+    </v-col>
+    <v-col id="target" class="mt-16">
+      target
     </v-col>
   </v-row>
 </template>
