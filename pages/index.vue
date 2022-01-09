@@ -31,7 +31,7 @@
       </div>
     </v-col>
     <v-col id="target" class="mt-16">
-      target
+      <nuxt-link v-scroll-to="'#top'" to class="mr-2">トップへ</nuxt-link>
     </v-col>
   </v-row>
 </template>
