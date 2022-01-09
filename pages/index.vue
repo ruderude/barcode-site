@@ -61,7 +61,7 @@ export default {
             data: {
               target: { fields }
             }
-          }) => `<img src="${fields.file.url}"/>`
+          }) => `<img src="${fields.file.url}" style="max-width:300px" />`
         }
       }
       return documentToHtmlString(obj, options)

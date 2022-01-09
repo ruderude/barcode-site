@@ -90,19 +90,19 @@ export default {
     }
   },
 
-  generate: {
-    routes () {
-      return Promise.all([
-        client.getEntries({
-          'content_type': 'work'
-        }),
-      ]).then(([works]) => {
-        return [
-          ...works.items.map(work => `work/${work.fields.slug}`),
-        ]
-      })
-    }
-  },
+  // generate: {
+  //   routes () {
+  //     return Promise.all([
+  //       client.getEntries({
+  //         'content_type': 'work'
+  //       }),
+  //     ]).then(([works]) => {
+  //       return [
+  //         ...works.items.map(work => `work/${work.fields.slug}`),
+  //       ]
+  //     })
+  //   }
+  // },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
